@@ -1,0 +1,47 @@
+/*loading */
+#loading-placeholder {
+    background: #f0f0e1;
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+#loading-placeholder .loapic {
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: -25px;
+  }
+#loading-placeholder .loapic div {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    display: inline-block;
+  }
+#loading-placeholder .loapic div:nth-child(1) {
+    animation: bounce 1s infinite;
+    animation-delay: 0.1s;
+    background: #009dc6;
+  }
+#loading-placeholder .loapic div:nth-child(2) {
+    animation: bounce 1s infinite;
+    animation-delay: 0.3s;
+    background: #e8b440;
+  }
+#loading-placeholder .loapic div:nth-child(3) {
+    animation-delay: 0.5s;
+    background: #b62327;
+  }
+  @-webkit-keyframes bounce {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    60% {
+      opacity: 0;
+    }
+  }

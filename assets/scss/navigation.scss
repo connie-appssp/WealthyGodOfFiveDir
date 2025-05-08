@@ -1,0 +1,45 @@
+
+// Mixins
+@import 'NAVX/mixins';
+
+// Variables
+@import 'NAVX/variables';
+
+// navigation
+@import 'NAVX/_navigation.core';
+@import 'NAVX/_navigation.brand.text';
+// @import 'NAVX/_navigation.logo';
+@import 'NAVX/_navigation.toggler.button';
+@import 'NAVX/_navigation.body';
+@import 'NAVX/_navigation.menu';
+@import 'NAVX/_navigation.menu.social';
+@import 'NAVX/_navigation.submenu.indicator';
+// @import 'NAVX/_navigation.button';
+@import 'NAVX/_navigation.text';
+@import 'NAVX/_navigation.badge';
+@import 'NAVX/_navigation.inline.form';
+@import 'NAVX/_navigation.dropdown';
+@import 'NAVX/_navigation.dropdown.horizontal';
+@import 'NAVX/_navigation.megamenu';
+@import 'NAVX/_navigation.megamenu.grid';
+@import 'NAVX/_navigation.megamenu.list';
+@import 'NAVX/_navigation.tabs';
+@import 'NAVX/_navigation.transparent';
+@import 'NAVX/_navigation.fullscreen';
+
+// Skins 
+// Uncomment one of the lines below to include a skin in the final CSS file (navigation.css)
+
+//@import 'NAVX/skins/_navigation.border.top';
+// @import 'NAVX/skins/_navigation.border.bottom';
+// @import 'NAVX/skins/_navigation.border.top.bottom';
+// @import 'NAVX/skins/_navigation.boxed';
+// @import 'NAVX/skins/_navigation.rounded.boxed';
+// @import 'NAVX/skins/_navigation.colored';
+// @import 'NAVX/skins/_navigation.gradient';
+// @import 'NAVX/skins/_navigation.mini.circle';
+// @import 'NAVX/skins/_navigation.bottom.arrow';
+// @import 'NAVX/skins/_navigation.dark';
+
+// Utilities
+@import 'NAVX/_utilities';

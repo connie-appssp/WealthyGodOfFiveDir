@@ -1,0 +1,12 @@
+.owl-prev,.owl-next {
+    position: absolute;
+    top: 50%;
+    z-index: 1000;
+    cursor: pointer;
+    transform: translateY(-50%);
+    // margin-top: -27px;
+
+    &:hover{
+        opacity: 0.5;
+    }
+}

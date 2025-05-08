@@ -1,0 +1,57 @@
+.footer{
+    width: 100%;
+    color:#FFD19A;
+    .information{
+        background-image: url(../image/footer/decorate.png);
+        background-repeat: repeat-x ;
+        background-position: 0 bottom;
+    }
+    .copyright{
+        background-color: rgba($color: #000, $alpha: 0.2);
+        color:   #FFD19A;
+    }
+}
+
+.footer-top-bg{
+    display: flex;
+    width: 100%;
+    position: relative;
+    height: 254px;
+    // height: 39.688rem;
+
+    %img-all {
+        position: absolute;
+        top:0;
+        z-index: 1;
+    }
+    .img-center{
+        display: inline-block;
+        @extend %img-all;
+        bottom: -6px;
+        left: 50%;
+        top:auto;
+        transform: translateX(-50%);
+    }
+    .img-left{
+        @extend %img-all;
+        left: 0;
+    }
+    .img-right{
+        @extend %img-all;
+        right: 0;
+    }
+
+    @media (max-width: 767.98px) {
+        height: 120px;
+        .img-left,.img-right{
+         img{
+            height: 127px;
+         }   
+        }
+        .img-center{
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

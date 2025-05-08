@@ -1,0 +1,31 @@
+body{
+    background-color: #F4F0EC;
+}
+
+.title{
+  .main-title{
+
+    .lin-star{
+      @extend %xyling;
+      margin-right: 8px;
+      background: linear-gradient(90deg, rgba(196, 138, 69, 0.00) 0%, #C48A45 90%) right center;
+    }
+    .lin-end{
+      @extend %xyling;
+      margin-left: 8px;
+      background: linear-gradient(90deg, #C48A45 0%, rgba(196, 138, 69, 0.00) 90%) left center;
+    }
+  }
+  .subtitle{
+    // color: #C48A45;
+    font-weight: 600;
+  }
+  %xyling{
+    width: 250px;
+    height: 4px;
+    flex-shrink: 0;
+  }
+
+
+
+}

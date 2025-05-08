@@ -1,0 +1,67 @@
+.main{
+    width: 100%;
+    background-image: url("../image/main/top-bg.png"),
+                      url("../image/main/top-bg2.png");
+    background-repeat:no-repeat ;
+    background-position: center -20%, center bottom;
+}
+
+
+
+
+
+// main The waves below
+.waves {
+    width: 100%;
+    height:15vh;
+    margin-bottom:-7px;
+    min-height:100px;
+    max-height:150px;
+  }
+.parallax{
+  > use {
+    animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+        }
+  > use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 7s;
+  }
+  > use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 10s;
+  }
+  > use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 13s;
+  }
+  > use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 20s;
+  }
+
+  @keyframes move-forever {
+    0% {
+     transform: translate3d(-90px,0,0);
+    }
+    100% { 
+      transform: translate3d(85px,0,0);
+    }
+  }
+  }
+
+
+
+
+.owl-prev, .owl-next {xw
+  position: absolute;
+  top: 50%;
+  z-index: 1000;
+  cursor: pointer;
+  transform: translateY(-50%);
+}
+.owl-prev:hover, .owl-next:hover {
+  opacity: 0.5;
+}
+  
+.owl-theme .owl-prev {left:2%;}
+.owl-theme .owl-next {right: 2%;}

@@ -1,0 +1,12 @@
+.event-item{
+    .card-img-top{
+        object-fit: cover;
+        transition: all 0.3s;
+    }
+
+    &:hover,&:focus{
+        .card-img-top{
+            transform: scale(1.1);
+        }
+    }
+}

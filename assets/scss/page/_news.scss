@@ -1,0 +1,25 @@
+.news{
+ 
+
+}
+
+.news-list{
+
+    .date{
+        line-height: 1;
+        span{
+            display: block;
+            font-size: 11px;
+        }
+    }
+}
+
+.news-card{
+    .list-group-item{
+        background-color: transparent;
+        border: 0;
+        a{
+            color: #000;
+        }
+    }
+}
